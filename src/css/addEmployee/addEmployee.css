@@ -1,0 +1,20 @@
+.addEmployee .addEmployeeButton {
+  text-align: center; }
+  .addEmployee .addEmployeeButton button {
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 1em; }
+
+.addEmployee .popup-overlay .popup-content .popUpForm .closeBtn {
+  cursor: pointer;
+  text-align: end; }
+
+.addEmployee .popup-overlay .popup-content .popUpForm .content .inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.4em; }
+  .addEmployee .popup-overlay .popup-content .popUpForm .content .inputContainer input {
+    width: 9em; }
+  .addEmployee .popup-overlay .popup-content .popUpForm .content .inputContainer span {
+    width: 5em; }

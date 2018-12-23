@@ -1,0 +1,34 @@
+.addEmployee{
+    .addEmployeeButton{
+        text-align: center;
+        button{
+            width: 10em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+    }
+    .popup-overlay{
+        .popup-content {
+            .popUpForm{
+                .closeBtn{
+                    cursor: pointer;
+                    text-align: end;
+                }
+                .content{
+                    .inputContainer{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-top: 0.4em;
+                        input{
+                            width: 9em;
+                        }
+                        span{
+                            width: 5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
